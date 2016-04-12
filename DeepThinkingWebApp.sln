@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7FC07C2-1F70-4DFD-A55F-492293D60A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2D8D264-BBE4-42F2-9FEA-7F4F2D67CA2D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DeepThinkingWebApp", "src\DeepThinkingWebApp\DeepThinkingWebApp.xproj", "{9A48874E-93CD-4549-9D98-984D1B5F50C8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DeepThinkingWebApi", "src\CommonWebAPI\DeepThinkingWebApi.xproj", "{71E99F7A-65F9-412E-B8D3-7A935E979EEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A3B5CD39-21D5-43EB-92DC-02F74C16F9E1}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DeepThinkingWebApiTest", "DeepThinkingWebAPITest\DeepThinkingWebApiTest.xproj", "{977220FA-F330-4954-90E8-90F044A05800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Site", "Site", "{5E682CB2-ECED-44E4-92FD-C91DFBD8CB7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A48874E-93CD-4549-9D98-984D1B5F50C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A48874E-93CD-4549-9D98-984D1B5F50C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A48874E-93CD-4549-9D98-984D1B5F50C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A48874E-93CD-4549-9D98-984D1B5F50C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E99F7A-65F9-412E-B8D3-7A935E979EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E99F7A-65F9-412E-B8D3-7A935E979EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E99F7A-65F9-412E-B8D3-7A935E979EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E99F7A-65F9-412E-B8D3-7A935E979EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977220FA-F330-4954-90E8-90F044A05800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977220FA-F330-4954-90E8-90F044A05800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977220FA-F330-4954-90E8-90F044A05800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977220FA-F330-4954-90E8-90F044A05800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A48874E-93CD-4549-9D98-984D1B5F50C8} = {5E682CB2-ECED-44E4-92FD-C91DFBD8CB7C}
+		{71E99F7A-65F9-412E-B8D3-7A935E979EEB} = {5E682CB2-ECED-44E4-92FD-C91DFBD8CB7C}
+		{977220FA-F330-4954-90E8-90F044A05800} = {A3B5CD39-21D5-43EB-92DC-02F74C16F9E1}
+		{5E682CB2-ECED-44E4-92FD-C91DFBD8CB7C} = {C7FC07C2-1F70-4DFD-A55F-492293D60A6D}
+	EndGlobalSection
+EndGlobal
